@@ -1,0 +1,163 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,400;0,700;1,700&display=swap');
+
+* {
+    font-family: 'Montserrat', sans-serif;    
+    font-weight: 500;
+}
+
+
+header {        
+    width: 100%;     
+    max-width : 1600px;  
+    min-width: 350px;
+    margin: 0 50px;
+    display: flex;
+    flex-direction: row-reverse;    
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+header>div {
+    margin: 20px;
+}
+
+main {     
+    width: 100%;      
+    max-width: 1600px;  
+    min-width: 350px;
+    margin: 20px;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+p.bodytext {
+    font-size: 20px;
+}
+
+h1.header_element {
+    height: 60px;
+    color: #022851;
+    font-weight: 700;
+    font-style: italic;
+    font-size: 50px;
+}
+
+.container {        
+    width: 100%;  
+    min-width: 350px;  
+    margin-top: 75px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.tile {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 40%;
+    padding: 20px;
+}
+
+p.bodytext {
+    margin: 40px 0;
+}
+
+.body_img {
+    width: 100%;
+}
+
+.captions {
+    font-size: 14px;
+}
+
+#logotext2 {
+    color: #008278;
+}
+
+#logo_area {
+    display: flex;
+    margin-right: 0;
+}
+
+#museum_logo {
+    height: 100px;
+}
+
+#title {
+    margin-left: 0;
+}
+#logo_text {
+    font-size: 16px;
+    height: 100px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-left: 15px;
+}
+
+#logotext2 {
+    font-weight: 700;
+}
+
+#stripe {    
+    width: 100%;
+    min-width: 350px;
+    position: absolute;
+    z-index: -1;
+    top: 160px;
+    background-color:  #008278;   
+    height: 220px;
+    opacity: 0.1;
+}
+
+@media (max-width: 1000px) {
+    header {
+        flex-direction: column;
+        align-items: center;
+        margin: 10px;
+        margin-bottom: 0;
+    }
+
+    main {
+        flex-direction: column;
+        align-items: center;
+        margin: 10px;
+    }
+    h1.header_element {
+        height: 35px;
+        font-size: 24px;
+    }
+    .tile {
+        width: 70%;
+    }
+    p.bodytext {
+        font-size: 18px;
+    }
+
+    div.tile figure {
+        order: 1;
+    }
+
+    div.tile p {
+        order: 2;
+    }
+
+    #title {
+        margin:  20px 10px;
+    }
+
+    #logo_area {
+        margin:  20px 10px;
+    }
+
+    #museum_logo, #logo_text {
+        height: 80px;
+    }
+
+    #stripe {
+        height: 140px;
+        top: 0;
+    }
+}
