@@ -89,7 +89,6 @@ p.bodytext {
     margin-left: 0;
 }
 #logo_text {
-    font-size: 16px;
     height: 100px;
     display: flex;
     flex-direction: column;
@@ -97,6 +96,9 @@ p.bodytext {
     margin-left: 15px;
 }
 
+#logo_text > div {    
+    font-size: 16px;
+}
 #logotext2 {
     font-weight: 700;
 }
