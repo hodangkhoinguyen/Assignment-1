@@ -32,7 +32,8 @@ main {
 }
 
 p.bodytext {
-    font-size: 20px;
+    font-size: 20px;    
+    margin: 40px 0;
 }
 
 h1.header_element {
@@ -60,9 +61,6 @@ h1.header_element {
     padding: 20px;
 }
 
-p.bodytext {
-    margin: 40px 0;
-}
 
 .body_img {
     width: 100%;
@@ -136,6 +134,7 @@ p.bodytext {
     }
     p.bodytext {
         font-size: 18px;
+        margin-bottom: 10px;
     }
 
     div.tile figure {
